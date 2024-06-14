@@ -32,7 +32,7 @@ class ProfileActivity : AppCompatActivity() {
 
         val back = findViewById<Button>(R.id.button_back2)
         back.setOnClickListener {
-            val i = Intent(this@ProfileActivity, MainActivity::class.java)
+            val i = Intent(this@ProfileActivity, LoginActivity::class.java)
             startActivity(i)
             finish()
         }
