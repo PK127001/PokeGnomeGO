@@ -43,28 +43,70 @@ class ThirdFragment : Fragment() {
             }
         }
         binding.imageviewSecond.setOnClickListener {
-            val comFragment = CommentsGolebnikFragment()
+            val comFragment = CommentsFragment()
             parentFragmentManager.commit {
                 replace(R.id.whatever, comFragment)
                 addToBackStack(null)
             }
         }
         binding.imageviewThird.setOnClickListener {
-            val comFragment = CommentsSpiochFragment()
+            val comFragment = CommentsFragment()
             parentFragmentManager.commit {
                 replace(R.id.whatever, comFragment)
                 addToBackStack(null)
             }
         }
         binding.imageviewFourth.setOnClickListener {
-            val comFragment = CommentsBibliofilFragment()
+            val comFragment = CommentsFragment()
             parentFragmentManager.commit {
                 replace(R.id.whatever, comFragment)
                 addToBackStack(null)
             }
         }
         binding.imageviewFifth.setOnClickListener {
-            val comFragment = CommentsGrunwaldekFragment()
+            val comFragment = CommentsFragment()
+            parentFragmentManager.commit {
+                replace(R.id.whatever, comFragment)
+                addToBackStack(null)
+            }
+        }
+        binding.imageviewSixth.setOnClickListener {
+            val comFragment = CommentsFragment()
+            parentFragmentManager.commit {
+                replace(R.id.whatever, comFragment)
+                addToBackStack(null)
+            }
+        }
+        binding.imageviewSeventh.setOnClickListener {
+            val comFragment = CommentsFragment()
+            parentFragmentManager.commit {
+                replace(R.id.whatever, comFragment)
+                addToBackStack(null)
+            }
+        }
+        binding.imageviewEigth.setOnClickListener {
+            val comFragment = CommentsFragment()
+            parentFragmentManager.commit {
+                replace(R.id.whatever, comFragment)
+                addToBackStack(null)
+            }
+        }
+        binding.imageviewNineth.setOnClickListener {
+            val comFragment = CommentsFragment()
+            parentFragmentManager.commit {
+                replace(R.id.whatever, comFragment)
+                addToBackStack(null)
+            }
+        }
+        binding.imageviewTenth.setOnClickListener {
+            val comFragment = CommentsFragment()
+            parentFragmentManager.commit {
+                replace(R.id.whatever, comFragment)
+                addToBackStack(null)
+            }
+        }
+        binding.imageviewEleventh.setOnClickListener {
+            val comFragment = CommentsFragment()
             parentFragmentManager.commit {
                 replace(R.id.whatever, comFragment)
                 addToBackStack(null)
